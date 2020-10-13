@@ -46,4 +46,17 @@ body {
     width: 200px;
     background: #14BDAC;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.x::after {
+    content: 'x';
+    font-size: 200px;
+    
+}
+.o::after {
+    content: 'o';
+    font-size: 200px;
+    color: white;
 }
