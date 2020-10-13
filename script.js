@@ -113,7 +113,7 @@ const checkGameStatus = () => {
     bottomRight
   ) {
     gameIsLive = false;
-    statusDiv.innerHTML = "Game is tied!";
+    statusDiv.innerHTML = "It's a tie...";
   } else {
     xIsNext = !xIsNext;
     if (xIsNext) {

@@ -5,12 +5,12 @@
 }
 body {
   color: #545454;
-  font-family: sans-serif;
+  font-family: 'Chilanka', cursive;
   display: flex;
   justify-content: center;
 }
 .container {
-  background: #14bdac;
+  background: rgb(72, 203, 247);
   margin: 50px;
   padding: 50px;
   border-radius: 25px;
@@ -35,7 +35,7 @@ body {
   color: white;
 }
 .game-grid {
-  background-color: #0da192;
+  background-color: rgb(73, 168, 199);
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
@@ -45,7 +45,7 @@ body {
 .game-cell {
   height: 200px;
   width: 200px;
-  background: #14bdac;
+  background: rgb(72, 203, 247);
   cursor: pointer;
   display: flex;
   justify-content: center;
